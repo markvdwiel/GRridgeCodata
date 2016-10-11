@@ -30,10 +30,10 @@ Response to Inflammation, Immunity (2016): published online 12 Jan 2016.)
 SOURCE:
 http://software.broadinstitute.org/gsea/msigdb/collections.jsp
 (Section C7: immunologic signatures)
-file name: ìc7.all.v5.1.symbols.gmtî
+file name: ‚Äúc7.all.v5.1.symbols.gmt‚Äù
 
 
 
 CO-DATA PROCESSING:
 The "coDataProcessing_ImmunologicSignaturePathway" provides an R script to process the 
-pathway information as a co-data for GRridge modeling in the RNAseq data set (primary data set). 
+pathway information as a co-data for GRridge modeling. 
