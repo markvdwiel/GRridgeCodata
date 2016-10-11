@@ -21,11 +21,13 @@ from whole blood only. (ArrayExpressID: E-GEOD-20189)
 SOURCES:
 
 - Breast cancer: https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-27562/
-  files:
+  Please follow the aforementioned link to extract the experimental data set. 
+  file:
   "sampleID_breast.txt"	  : a file contains information about sampleID and phenotype for each sample.
                             This file was obtained from "E-GEOD-27562.sdrf"
-
+                            
 - NSCLC: https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-20189/
+  Please follow the aforementioned link to extract the experimental data set. 
   files: 
   "E-GEOD-20189.sdrf"	  : a full description of all samples	
   "sampleID_NSCLC.txt"	  : a file contains information about sampleID, response (class label) and 
@@ -36,10 +38,9 @@ SOURCES:
 
 CO-DATA PROCESSING:
 
-The "coDataProcessing_DEG.R" provides an R script to process both gene expression data so that it can be
-used as a co-data for GRridge modeling in the RNAseq data set (primary data set). 
+The "coDataProcessing_DEG.R" provides an R script to process the gene expression data sets 
 
 The R script includes these following precedures:
 - Mapping probes into the gene level and summarizing genes with multiple probe' names.
 - Differentially expressed genes (DEGs) analysis by limma approach in each and every data set.
-- Combining DEGs resulted from two datasets for a co-data.
+- Combining DEGs resulted from two data sets for a co-data.
