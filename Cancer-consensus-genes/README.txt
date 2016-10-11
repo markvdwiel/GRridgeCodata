@@ -1,6 +1,4 @@
 
-Cancer consensus genes is a potential useful co-data for GRridge modeling when RNAseq data set is used as a primary data set. 
-
 DESCRIPTION:
 The cancer Gene Census is an ongoing effort to catalogue those genes for which mutations 
 have been causally implicated in cancer. The original census and analysis was published 
