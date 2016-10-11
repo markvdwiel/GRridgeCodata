@@ -4,13 +4,22 @@ DESCRIPTION:
 we created a list of  platelet-expressed genes based on the joint lists of these two following studies, 
 
 1. Gnatenko DV et al. Transcript profiling of human platelets using microarray and serial analysis of gene expression. Blood. (2003)
-This study was aimed to observe gene expression transcripts in human blood platelets. Peripheral blood taken from normal healthy volunteers were hybridized its platelets in Affymetrix HG-U95Av2 (12,599 probes). Gene expression quantification (calculated as the average difference value) was applied to determine the human platelet-expressed genes. The study found 2,147 genes that were expressed
-in platelets samples.  
+This study was aimed to observe gene expression transcripts in human blood platelets.
+Peripheral blood taken from normal healthy volunteers were hybridized its platelets in Affymetrix HG-U95Av2 (12,599 probes). 
+Gene expression quantification (calculated as the average difference value) was applied to determine the human 
+platelet-expressed genes. The study found 2,147 genes that were expressed in platelets samples.  
 
 2. Bugert P et al. Messenger RNA profiling of human platelets by microarray hybridization. ThrombHaemost. (2003)
-A microarray gene expression data set containing 9,850 human genes was generated from 24 healthy Caucasians. Mean signal intensity for each and every gene was estimated, rendering 1,526 genes were found having positive hybridization signals. We included those positive genes into our platelet expressed genes list. The full list of human platelets genes is in "plt_array_Bugert P et al.xls" 
+A microarray gene expression data set containing 9,850 human genes was generated from 24 healthy Caucasians.
+Mean signal intensity for each and every gene was estimated, rendering 1,526 genes were found having positive
+hybridization signals. We included those positive genes into our platelet expressed genes list. 
+The full list of human platelets genes is in "plt_array_Bugert P et al.xls" 
 
-In total, the list of platelet-expressed genes contains of 1,529 genes.The genes in the RNAseq data were grouped to either “platelet-expressed genes” or “non-overlapped genes”. As it implies by the name, “platelet-expressed genes” is a group of genes in the RNAseq data that were found to be express in platelets’ samples from the two aforementioned studies. Meanwhile, the other genes that are not found in the list are grouped to “non-overlapped genes” group. 
+In total, the list of platelet-expressed genes contains of 1,529 genes.The genes in the RNAseq data were 
+grouped to either “platelet-expressed genes” or “non-overlapped genes”. As it implies by the name, 
+“platelet-expressed genes” is a group of genes in the RNAseq data that were found to be express in platelets’ 
+samples from the two aforementioned studies. Meanwhile, the other genes that are not found in the list are 
+grouped to “non-overlapped genes” group. 
 
 
 SOURCES:
