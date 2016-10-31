@@ -1,0 +1,33 @@
+
+DESCRIPTION:
+
+Blood platelets extracted from patients with six different cancer types were used to
+profile RNA markers for early cancer detection (Wurdinger et al., 2015). The
+raw sequencing data set is publicly available in GEO database (GEO: GSE68086). 
+
+This R object contains:
+1. datWurdinger: A matrix containing preprocessed mRNA sequencing data 
+(quasi-gausian scale). Columns are samples and rows are features. 
+
+2. respWurdinger: A data frame containing sampleID and response for each sample.
+The responses are "Breast", "CRC", "GBM", "HC", "LiverAndBile", "NSCLC" and "Pancreas".                
+
+3. annotationWurdinger : A list containing ensembleID, geneSymbol,
+entrezID and chromosome location. 
+
+4. coDataWurdinger: A list containing co-data sets from external sources, 
+namely (i) a list of genes that are expressed in platelets;
+(ii) immunologic signature pathway and; (iii) transcription factor based pathway 
+and a list of cancer somatic genes.
+
+5. TFsym: A GeneSetCollection object. Gene sets contain genes that shares a transcription
+binding site defined in the TRANSFAC (version 7.4) database. Each of these gene
+sets is annotated by a TRANSFAC record. 
+
+
+SOURCE:
+
+http://software.broadinstitute.org/gsea/msigdb/collections.jsp (Section C3:
+motif gene sets; subsection: transcription factor targets, file name:
+"c3.tft.v5.0.symbols.gmt")
+
