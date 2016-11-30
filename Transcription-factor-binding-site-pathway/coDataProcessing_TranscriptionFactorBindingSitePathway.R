@@ -21,12 +21,12 @@ library(GSEABase)
 TFsym = getGmt("c3.tft.v5.0.symbols.gmt")
 
 # Creating partitions based on pathways information (e.g. GSEA object)
-# Some variables may belong to more than one groups (gene sets)
-# The argument minlen=25 implies the minimum number of members of a gene set
+# Some variables may belong to more than one groups (gene sets).
+# The argument minlen=25 implies the minimum number of members in a gene set
 # If remain=TRUE, gene sets with less than 25 members are grouped to the
-# "remainder" group
-# "genesWurdinger" is an object containing genes in the data set in the mRNA example
-# see help(matchGeneSets) for detail information of arguments in the function.
+# "remainder" group.
+# help(dataWurdinger): shows on how to get the "genesWurdinger" object from the GRridge package
+# help(matchGeneSets): for detail information of the "matchGeneSets" function.
 gseTF = matchGeneSets(genesWurdinger,TFsym,minlen=25,remain=TRUE)
 
 # Regrouping gene sets by hierarchical clustering analysis
