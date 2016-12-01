@@ -34,6 +34,6 @@ The "coDataProcess_DET_TCGA.R" provides an R script to process the TCGA data set
 modeling in the RNASeq data set.
  
 The R script includes these following precedures:
-- Read the downloaded TCGA data sets in the R environment
+- Read downloaded TCGA data sets in the R environment
 - Normalize the data sets
 - Perform differentially expressed transcripts (P values from this analysis may be used as a co-data)
