@@ -1,11 +1,4 @@
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-#                                       Load packages                                #
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-list.of.packages = c("GSEABase","GRridge","GSA")
-lapply(list.of.packages, require, character.only = TRUE)
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-
-
+library(GRridge)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 #                                      Load data sets                                #
@@ -68,7 +61,8 @@ ListMonotone = c(TRUE,FALSE,FALSE)
 # apply partition selection and partition ordering in order to optimize the
 # performance of grridge model
 # (! it may take some time)
-selPar = PartitionsSelection(standardizedData, response, ListPartitions, ListMonotone, optl=NULL, innfold=NULL) 
+selPar = PartitionsSelection(standardizedData, response, ListPartitions, 
+                             ListMonotone, optl=NULL, innfold=NULL) 
 
 # a list of partitions that improve the performance of GRridge model (based on cvl)
 partitionsUpdate = ListPartitions[selPar$ordPar]
