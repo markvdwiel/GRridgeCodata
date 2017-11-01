@@ -12,3 +12,6 @@ file name: “c3.tft.v5.0.symbols.gmt”
 CO-DATA PROCESSING:
 The "coDataProcessing_TranscriptionFactorBindingSitePathway.R" provides an 
 R script to process the pathway information as a co-data for GRridge modeling.
+
+TFsym.RData is a list contains genes on transcription fator binding site pathway. 
+This object is NOT an object from getGMT function (GSEAbase package). 
