@@ -20,10 +20,8 @@ namely (i) a list of genes that are expressed in platelets;
 (ii) immunologic signature pathway and; (iii) transcription factor based pathway 
 and a list of cancer somatic genes.
 
-5. TFsym: A GeneSetCollection object. Gene sets contain genes that shares a transcription
-binding site defined in the TRANSFAC (version 7.4) database. Each of these gene
-sets is annotated by a TRANSFAC record. 
-
+dataWurdinger and dataWurdingerBC differ in the sense that the latter contains the data and coData
+obly Breast and Colon samples. For the latter features with sd=0 were removed.
 
 SOURCE:
 
